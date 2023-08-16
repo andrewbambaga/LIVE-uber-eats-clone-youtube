@@ -1,6 +1,16 @@
 import * as React from "react";
-import RootNavigation from "./navigation";
+import { View, Text } from "react-native";
 
 export default function App() {
-  return <RootNavigation />;
+  return (
+    <View
+      style={{
+        flex: 1,
+        justifyContent: "center",
+        alignItems: "center",
+      }}
+    >
+      <Text>Are you ready for Caf3?</Text>
+    </View>
+  );
 }
